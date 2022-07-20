@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>day2_이미지</title>
+</head>
+<body>
+    <!-- img 이미지 태그 : 인라인 요소.
+        src 속서값에 이미지 위치 설정(url주소 또는 로컬위치파일)
+        이미지 파일 위치 지정할대 상대경로와 절대경로 모두 가능    
+    -->
+
+    <img src="IMG_0737.jpeg" alt="jeju">
+    <!-- 파일위치와 파일명이 정확하지 않으면 이미지 표시 안됨(엑박) -->
+    <img src="../이미지/IMG_0806.jpeg" alt="jeju2">
+    <hr>
+    <!-- 이미지크기 너비만 설정(가로 세로 비율 유자), 높이는 height -->
+    <img src="IMG_0737.jpeg" alt="jeju" style="width: 100px;">
+    <img src="../이미지/IMG_0806.jpeg" alt="jeju2" style="width: 100px;">
+    <hr>
+    <!-- 높이 height 까지 설정하면 가로새로 비율은 유지가 안될수도 있습니다. -->
+    <img src="IMG_0737.jpeg" alt="jeju" style="width:100px;height: 100px;">
+    <img src="../이미지/IMG_0806.jpeg" alt="jeju2" style="width:100px;height:100px;">
+
+    <a href="http://www.spiderman.com" target="_blank">
+        <img src="../이미지/IMG_0806.jpeg" alt="jeju2" style="width:100px;height:100px;"></a>
+
+</body>
+</html>
